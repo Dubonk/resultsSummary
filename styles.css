@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+#container {
+    display: flex;
+    border-radius: 8px;
+    width: 700px;
+    box-shadow: -2px 3px 10px black;
+}
+
+.result  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(9,9,121,1);
+    border-radius: 8px;
+    color: rgb(216, 216, 216);
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+}
+
+#circleResult {
+    background: rgb(2,0,36);
+    background: linear-gradient(189deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    width: 50%;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px 20px 10px 20px;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 32px;
+}
+
+.lightning { 
+    background-color: lightpink;
+}
+
+.memory {
+    background-color: lightyellow;
+}
+
+.verbal {
+    background-color: lightgreen;
+}
+
+.visual {
+    background-color: plum;
+}
+
+img {
+    width: 15px;
+}
+
+button {
+    align-self: center;
+    height: 32px;
+    background-color: navy;
+    border-radius: 18px;
+    border-color: transparent;
+    color: aliceblue;
+    width: 40%;
+}
