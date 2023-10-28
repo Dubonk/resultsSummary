@@ -31,7 +31,7 @@ body {
 
 #circleResult {
     background: rgb(2,0,36);
-    background: linear-gradient(189deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(9,9,121,1) 40%, rgba(9,9,121,1) 40%, rgb(0, 81, 255) 90%);
     border-radius: 50%;
     width: 50%;
 }
@@ -75,6 +75,8 @@ body {
 
 img {
     width: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 button {
