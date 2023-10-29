@@ -83,8 +83,10 @@ button {
     align-self: center;
     height: 32px;
     background-color: navy;
-    border-radius: 18px;
+    border-radius: 10px;
     border-color: transparent;
     color: aliceblue;
     width: 40%;
+    font-weight: 600;
+    margin-top: 20px;
 }
